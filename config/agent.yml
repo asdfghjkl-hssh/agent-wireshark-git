@@ -1,0 +1,4 @@
+chat-model-name: qwen3-max
+embedding-model-name: text-embedding-v4
+#外部数据地址
+external-data-data: data/external/records.csv
