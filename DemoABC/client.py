@@ -5,7 +5,6 @@ from langchain_mcp_adapters.tools import load_mcp_tools
 from langchain.agents import create_agent
 from langchain_community.chat_models import ChatTongyi
 import asyncio
-
 model = ChatTongyi(model='qwen3-max')
 
 server_params = StdioServerParameters(
